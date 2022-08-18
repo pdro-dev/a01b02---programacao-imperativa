@@ -60,42 +60,42 @@ function microondas(prato, tempo) {
 
 
 console.log("teste 0: frango - Prato Inexistente")
-microondas("frango", 17)
+microondas("frango", 2)
 console.log("")
 
 console.log("teste 1: pipoca - 10 segundos")
-microondas("pipoca", 21)
-microondas("pipoca", 8)
-microondas("pipoca", 31)
-microondas("pipoca", 10)
+microondas("pipoca", 21) // tempo 2x maior que o necessário
+microondas("pipoca", 8) // tempo menor que o necessário
+microondas("pipoca", 31) // tempo 3x maior que o necessário
+microondas("pipoca", 10) // tempo correto
 console.log("")
 
 console.log("teste 2: macarrao - 8 segundos")
-microondas("macarrao", 17)
-microondas("macarrao", 5)
-microondas("macarrao", 25)
-microondas("macarrao", 8)
+microondas("macarrao", 17) // tempo 2x maior que o necessário
+microondas("macarrao", 5) // tempo menor que o necessário
+microondas("macarrao", 25) // tempo 3x maior que o necessário
+microondas("macarrao", 8) // tempo correto
 console.log("")
 
 console.log("teste 3: carne - 15 segundos")
-microondas("carne", 17)
-microondas("carne", 5)
-microondas("carne", 25)
-microondas("carne", 8)
+microondas("carne", 31) // tempo 2x maior que o necessário
+microondas("carne", 14) // tempo menor que o necessário
+microondas("carne", 50) // tempo 3x maior que o necessário
+microondas("carne", 15) // tempo correto
 console.log("")
 
 console.log("teste 4: feijao - 12 segundos")
-microondas("feijao", 17)
-microondas("feijao", 5)
-microondas("feijao", 25)
-microondas("feijao", 8)
+microondas("feijao", 17) // tempo 2x maior que o necessário
+microondas("feijao", 5) // tempo menor que o necessário
+microondas("feijao", 25) // tempo 3x maior que o necessário
+microondas("feijao", 8) // tempo correto
 console.log("")
 
 console.log("teste 5: brigadeiro - 8 segundos")
-microondas("brigadeiro", 17)
-microondas("brigadeiro", 5)
-microondas("brigadeiro", 25)
-microondas("brigadeiro", 8)
+microondas("brigadeiro", 17) // tempo 2x maior que o necessário
+microondas("brigadeiro", 5) // tempo menor que o necessário
+microondas("brigadeiro", 25) // tempo 3x maior que o necessário
+microondas("brigadeiro", 8) // tempo correto
 console.log("")
 
 
