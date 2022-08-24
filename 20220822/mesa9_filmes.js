@@ -72,8 +72,8 @@ console.log(adicionar_filmes(filmes_e_series, filmes_animacao));
 Crie uma função que compare as notas e nos diga se elas são iguais ou diferentes.
 */
 
-const asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4];
-const euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
+let asiaScores = [8, 10, 6, 9, 10, 6, 6, 8, 4];
+let euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
 
 function compara_notas(array1, array2) {
     // verifica se as duas arrays tem o mesmo tamanho
