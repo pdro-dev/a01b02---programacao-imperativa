@@ -91,3 +91,4 @@ function join(arrayString) {
 
 console.log(join([ "o","l","a" ])) // "ola"
 console.log(join([ "t","c","h","a","u" ])) // "tchau"
+
