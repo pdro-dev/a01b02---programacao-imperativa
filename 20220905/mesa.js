@@ -25,3 +25,20 @@ let fizzBuzz = (num1, num2) => {
     }
 }
 console.log(fizzBuzz(10, 100));
+
+// Avançado: palavras sejam passadas de forma dinâmica e seja você quem decide quais palavras ele deve dizer
+
+let fizzBuzzAvanc = (num1, num2, str1, str2) => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % num1 === 0 && i % num2 === 0) {
+            console.log(str1 + str2);
+        } else if (i % num1 === 0) {
+            console.log(str1);
+        } else if (i % num2 === 0) {
+            console.log(str2);
+        } else {
+            console.log(i);
+        }
+    }
+}
+console.log(fizzBuzzAvanc(10, 100, 'Hello', 'World'));
