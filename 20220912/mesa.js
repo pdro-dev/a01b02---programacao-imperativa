@@ -1,3 +1,6 @@
+// https://docs.google.com/document/d/11YLIaU864-gvhi0q0EMRYItk5RGl_OMbFtUFxwdXqYM/preview#
+// https://codeshare.io/YLYxdQ
+
 /*
 1. Loop de Pares
 Você deve criar uma função chamada loopDePares que receba um número como parâmetro e faça loops de 0 a 100 mostrando cada número do loop no console.
