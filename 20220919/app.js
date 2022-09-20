@@ -9,7 +9,7 @@ Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. F
 let Quantidades = require('./modules/funcoes').Quantidades;
 let Alturas = require('./modules/funcoes').Alturas;
 
-// respostas atividade
+// respostas da atividade
 console.log(`Respostas da atividade:`);
 // a maior e a menor altura do grupo
 console.log(`A maior altura do grupo é ${Alturas.maiorDoGrupo(Alturas.dados)}m e a menor é ${Alturas.menorDoGrupo(Alturas.dados)}m.`);
