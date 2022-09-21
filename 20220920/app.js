@@ -15,9 +15,6 @@ const Pessoa = require('./modules/f_constr_dados');
 
 
 // inserir dados no array de objetos Pessoas no modulo dados.js
-Pessoas.push(new Pessoa(1.61, 'M'));
-Pessoas.push(new Pessoa(1.62, 'F'));
-Pessoas.push(new Pessoa(1.63, 'M'));
 Pessoas.push(new Pessoa(1.67, 'F'));
 Pessoas.push(new Pessoa(1.68, 'M'));
 Pessoas.push(new Pessoa(1.69, 'F'));

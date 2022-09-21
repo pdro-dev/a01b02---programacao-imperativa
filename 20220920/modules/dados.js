@@ -2,9 +2,6 @@
 Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas.
 */
 
-
-
-
 // 1. Criar um array de objetos com as propriedades altura e sexo
 let Pessoas = [
     {altura: 1.70, sexo: 'M'},
